@@ -3,12 +3,11 @@ package com.djontleman;
 public class SumOfDigits {
 
     public static void main(String[] args) {
-        int result = DRoot.digital_root(132189);
+        int result = digital_root(132189);
         System.out.println(result);
     }
-}
 
-class DRoot {
+    // Kata
     public static int digital_root(int n) {
 
         // convert int n to string

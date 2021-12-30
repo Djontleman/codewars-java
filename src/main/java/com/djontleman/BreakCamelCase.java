@@ -3,12 +3,11 @@ package com.djontleman;
 public class BreakCamelCase {
 
     public static void main(String[] args) {
-        String result = Solution.camelCase("camelCasing");
+        String result = camelCase("camelCasing");
         System.out.println(result);
     }
-}
 
-class Solution {
+    // Kata
     public static String camelCase(String input) {
         // setup
         String output = "";

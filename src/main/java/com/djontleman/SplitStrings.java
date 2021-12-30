@@ -5,12 +5,11 @@ import java.util.Arrays;
 public class SplitStrings {
 
     public static void main(String[] args) {
-        String[] result = StringSplit.solution("abcdef");
+        String[] result = solution("abcdef");
         System.out.println(Arrays.toString(result));
     }
-}
 
-class StringSplit {
+    // Kata
     public static String[] solution(String s) {
         // empty input string
         if (s.length() < 1) {

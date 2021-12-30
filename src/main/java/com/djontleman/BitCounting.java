@@ -7,6 +7,7 @@ public class BitCounting {
         System.out.println(result);
     }
 
+    // Kata
     public static int countBits(int n){
         // Determines the number of binary digits
         int power = 0;
